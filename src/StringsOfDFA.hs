@@ -21,7 +21,7 @@ module StringsOfDFA (
   ) where
 
 import Data.Map as Map (Map, empty, insertWith, singleton, union, elems, 
-                              keys, keysSet)
+                              keys)
 import Data.Set as Set (Set, empty, insert, elems, findIndex, fromList)
 import Data.Map.Lazy ((!))
 import Data.List (nub)
